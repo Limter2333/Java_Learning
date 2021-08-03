@@ -1,3 +1,6 @@
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 //import javax.swing.*;
 //class RunnableDemo implements Runnable {
 class Java_multithreading extends Thread {
@@ -33,6 +36,8 @@ class Java_multithreading extends Thread {
 
 class TestThread {
     public static void main(String args[]) {
+
+
         Java_multithreading M1 = new Java_multithreading("Thread-1");
         M1.start();
 
